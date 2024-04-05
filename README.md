@@ -15,6 +15,7 @@ and `/etc/pki/ca-trust/extracted/java/cacerts`, the SSL certificate can be added
 `sudo` privileges are needed for modifying system trust store files.
 
 `sudo ./trustjavacert.sh google.com 443 secretpass`
+
 `sudo ./trustjavacert.sh uafs.edu 9999 secretpass`
 
 ## Examples
