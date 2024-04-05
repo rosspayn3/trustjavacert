@@ -1,7 +1,7 @@
 # trustjavacert.sh
-author: Ross Payne
-org:    UAFS
-date:   2024-04-03
+- author: Ross Payne
+- org:    UAFS
+- date:   2024-04-03
 
 ## Description
 This script will connect to a given remote server on a given port. An TLS handshake is attempted with `openssl s_client`.
