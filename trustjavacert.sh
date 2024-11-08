@@ -1,7 +1,8 @@
 ##########################
-# Author: Ross Payne
-# Org:    UAFS
-# Date:   2024-04-03
+# Author:   Ross Payne
+# Org:      UAFS
+# Date:     2024-04-03
+# Updated:  2024-11-07
 ##########################
 
 if [ "$EUID" -ne 0 ]
@@ -12,7 +13,7 @@ fi
 FQDN=$1
 PORT=$2
 STOREPASS=$3
-DATE=$(date +%Y%m%d)
+DATE=$(date +%Y%m%d_%H%M%S)
 JSSECACERTS="/usr/lib/jvm/jre/lib/security/jssecacerts"
 CACERTS="/etc/pki/ca-trust/extracted/java/cacerts"
 
